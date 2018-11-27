@@ -61,7 +61,7 @@ public class CommonFunctions {
 		
 	}
 	
-	//this method is to wait first and then click
+	//this method is to wait first and then click hello
 	public void click(By by,WebDriver driver,int wait) {
 		explicit_wait(driver,by,wait);
 		driver.findElement(by).click();
